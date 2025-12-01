@@ -1,0 +1,344 @@
+
+# 2025-12-01 06:01:02.028988
++Code the following app
++```
++Build a fully functional mobile app called SkillPath (a job training and career mentorship platform).
++The app should include complete UI, UX, logic, databases, and API integrations.
++Generate all screens, components, data models, and actions.
++
++⸻
++
++🎯 1. Core Purpose of the App
++
++Help students, jobseekers, career shifters, and young professionals:
++	•	learn skills
++	•	build portfolios
++	•	access real mentors
++	•	find scholarships
++	•	discover job opportunities
++	•	create a personalized career roadmap
++
++⸻
++
++📌 2. App Features (FULL LIST)
++
++A. Onboarding & Profiles
++	•	Email, phone, and Google login
++	•	User types: Student, Jobseeker, Career Shifter, Professional
++	•	Profile fields: skills, interests, goals, education, work history
++
++B. Skill Learning Hub
++	•	Video lessons
++	•	Articles and guides
++	•	Skill tracks (e.g., Graphic Design, Digital Marketing, Coding, Sales, Admin Work)
++	•	Progress tracking
++	•	Quizzes & assessments
++	•	Certificates auto-generated after completion (PDF)
++
++C. Career Roadmap Generator (AI-assisted)
++	•	Ask user about goals, timeline, current skills
++	•	Generate a step-by-step roadmap
++	•	Recommend courses
++	•	Recommend mentors
++	•	Track progress and milestones
++
++D. Resume & Portfolio Builder
++	•	Template-based resume builder
++	•	Auto-fill from user profile
++	•	Portfolio section: upload samples, links, projects
++	•	Export to PDF
++
++E. Mentor Matching System
++	•	Mentor directory
++	•	Filters: industry, skill, language, availability
++	•	Booking system for sessions (chat/video)
++	•	In-app messaging
++	•	Review system for mentors
++
++F. Scholarship Finder
++	•	List of scholarships (local and international)
++	•	Filters: field of study, country, deadline, requirements
++	•	Save favorites
++	•	Deadline reminders
++
++G. Job Suggestion Engine
++	•	Jobs recommended based on user skills & roadmap
++	•	Job listing screen
++	•	Quick-apply button
++	•	Save jobs
++
++H. Community & Learning Groups
++	•	Forums by industry
++	•	Ask mentors & professionals
++	•	Share progress
++	•	Post portfolio items
++
++I. Notifications
++	•	Roadmap updates
++	•	New scholarship postings
++	•	Mentor message alerts
++	•	Job match alerts
++	•	Course progress reminders
++
++J. Settings
++	•	Change password
++	•	Manage notifications
++	•	Delete account
++	•	Dark mode
++
++⸻
++
++🗄️ 3. Data Models (Database Schema)
++
++Users
++
++id, name, email, password, type, skills[], bio, goals, education[], work_history[], created_at
++
++Courses
++
++id, name, category, difficulty, content[], video_urls[], quiz[], certificate_template
++
++Roadmaps
++
++id, user_id, steps[], recommended_courses[], milestones[]
++
++Mentors
++
++id, name, skills[], bio, price, schedule[], rating, reviews[]
++
++Jobs
++
++id, title, company, description, skills_required[], salary_range, apply_link, created_at
++
++Scholarships
++
++id, title, requirements[], deadline, url, provider
++
++Messages
++
++id, sender_id, receiver_id, content, timestamp
++
++⸻
++
++🎨 4. UI/UX Requirements
++	•	Clean, modern, minimal
++	•	Color palette: Blue (#1A73E8), White (#FFFFFF), Gray (#F2F2F2)
++	•	Rounded components
++	•	Material Design styling
++	•	Clear navigation:
++	•	Home
++	•	Learn
++	•	Mentors
++	•	Opportunities
++	•	Profile
++
++⸻
++
++🧠 5. AI Components
++	•	AI roadmap generator
++	•	AI resume suggestions
++	•	AI skill recommendations
++
++⸻
++
++⚙️ 6. Technical Requirements
++	•	Secure user authentication
++	•	Real-time messaging
++	•	Cloud storage for portfolio files
++	•	Search + filter engine
++	•	Responsive design
++	•	Scalable backend structure
++
++⸻
++
++📈 7. Outputs Expected from the Builder
++
++Generate:
++	•	Screens
++	•	UI layouts
++	•	Navigation flow
++	•	Backend DB collections
++	•	API calls
++	•	Authentication logic
++	•	CRUD workflows
++	•	Functions for filters, search, generating PDF, booking mentors
++	•	Automated certificates
++	•	Notification triggers
++
++Ensure the app is fully functional from onboarding to job application flow.
++Build the app
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-12-01 06:01:02.030131
++Code the following app
++```
++Build a fully functional mobile app called SkillPath (a job training and career mentorship platform).
++The app should include complete UI, UX, logic, databases, and API integrations.
++Generate all screens, components, data models, and actions.
++
++⸻
++
++🎯 1. Core Purpose of the App
++
++Help students, jobseekers, career shifters, and young professionals:
++	•	learn skills
++	•	build portfolios
++	•	access real mentors
++	•	find scholarships
++	•	discover job opportunities
++	•	create a personalized career roadmap
++
++⸻
++
++📌 2. App Features (FULL LIST)
++
++A. Onboarding & Profiles
++	•	Email, phone, and Google login
++	•	User types: Student, Jobseeker, Career Shifter, Professional
++	•	Profile fields: skills, interests, goals, education, work history
++
++B. Skill Learning Hub
++	•	Video lessons
++	•	Articles and guides
++	•	Skill tracks (e.g., Graphic Design, Digital Marketing, Coding, Sales, Admin Work)
++	•	Progress tracking
++	•	Quizzes & assessments
++	•	Certificates auto-generated after completion (PDF)
++
++C. Career Roadmap Generator (AI-assisted)
++	•	Ask user about goals, timeline, current skills
++	•	Generate a step-by-step roadmap
++	•	Recommend courses
++	•	Recommend mentors
++	•	Track progress and milestones
++
++D. Resume & Portfolio Builder
++	•	Template-based resume builder
++	•	Auto-fill from user profile
++	•	Portfolio section: upload samples, links, projects
++	•	Export to PDF
++
++E. Mentor Matching System
++	•	Mentor directory
++	•	Filters: industry, skill, language, availability
++	•	Booking system for sessions (chat/video)
++	•	In-app messaging
++	•	Review system for mentors
++
++F. Scholarship Finder
++	•	List of scholarships (local and international)
++	•	Filters: field of study, country, deadline, requirements
++	•	Save favorites
++	•	Deadline reminders
++
++G. Job Suggestion Engine
++	•	Jobs recommended based on user skills & roadmap
++	•	Job listing screen
++	•	Quick-apply button
++	•	Save jobs
++
++H. Community & Learning Groups
++	•	Forums by industry
++	•	Ask mentors & professionals
++	•	Share progress
++	•	Post portfolio items
++
++I. Notifications
++	•	Roadmap updates
++	•	New scholarship postings
++	•	Mentor message alerts
++	•	Job match alerts
++	•	Course progress reminders
++
++J. Settings
++	•	Change password
++	•	Manage notifications
++	•	Delete account
++	•	Dark mode
++
++⸻
++
++🗄️ 3. Data Models (Database Schema)
++
++Users
++
++id, name, email, password, type, skills[], bio, goals, education[], work_history[], created_at
++
++Courses
++
++id, name, category, difficulty, content[], video_urls[], quiz[], certificate_template
++
++Roadmaps
++
++id, user_id, steps[], recommended_courses[], milestones[]
++
++Mentors
++
++id, name, skills[], bio, price, schedule[], rating, reviews[]
++
++Jobs
++
++id, title, company, description, skills_required[], salary_range, apply_link, created_at
++
++Scholarships
++
++id, title, requirements[], deadline, url, provider
++
++Messages
++
++id, sender_id, receiver_id, content, timestamp
++
++⸻
++
++🎨 4. UI/UX Requirements
++	•	Clean, modern, minimal
++	•	Color palette: Blue (#1A73E8), White (#FFFFFF), Gray (#F2F2F2)
++	•	Rounded components
++	•	Material Design styling
++	•	Clear navigation:
++	•	Home
++	•	Learn
++	•	Mentors
++	•	Opportunities
++	•	Profile
++
++⸻
++
++🧠 5. AI Components
++	•	AI roadmap generator
++	•	AI resume suggestions
++	•	AI skill recommendations
++
++⸻
++
++⚙️ 6. Technical Requirements
++	•	Secure user authentication
++	•	Real-time messaging
++	•	Cloud storage for portfolio files
++	•	Search + filter engine
++	•	Responsive design
++	•	Scalable backend structure
++
++⸻
++
++📈 7. Outputs Expected from the Builder
++
++Generate:
++	•	Screens
++	•	UI layouts
++	•	Navigation flow
++	•	Backend DB collections
++	•	API calls
++	•	Authentication logic
++	•	CRUD workflows
++	•	Functions for filters, search, generating PDF, booking mentors
++	•	Automated certificates
++	•	Notification triggers
++
++Ensure the app is fully functional from onboarding to job application flow.
++Build the app
++```
++
++Generate an app logo and update the app metadata title and description.
